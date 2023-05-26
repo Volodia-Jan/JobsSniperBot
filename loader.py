@@ -4,3 +4,5 @@ from utils import *
 
 bot = Bot(token=BotConfig.token)
 dp = Dispatcher(bot)
+
+session_manager = DbSessionManager()
